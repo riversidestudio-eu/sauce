@@ -809,16 +809,16 @@ html:not(.has-js) .rv-r{opacity:1;transform:none;transition:none}
   ==========================================================
   */
   const CLIENTE = {
-    nome: 'De La Calle',
-    cidade: 'Porto',
-    morada: 'Rua da Harmonia, 546',
+    nome: 'Sauce',
+    cidade: 'Coimbra',
+    morada: 'Rua das Hortênsias, 24',
     telefone: '932280272',
     whatsapp: '351932280272',
     email: 'contacto@riversidestudio.eu',
     instagram: 'riversidestudioporto',
     facebook: '#',
     tripadvisor: '#',
-    descricaoCurta: 'Hamburgueria urbana com vibe noturna e energia jovem. Smash burgers suculentos, ambiente moderno e luzes neon que transformam cada noite numa experiência.',
+    descricaoCurta: 'Cucina italiana autêntica com ingredientes frescos e receitas tradicionais, desde 1890, receitas tipicas da região da Puglia.',
     textoWhatsApp: 'Olá! Gostaria de fazer uma reserva.'
   };
   const VISUAL = {
@@ -843,70 +843,69 @@ html:not(.has-js) .rv-r{opacity:1;transform:none;transition:none}
   const IMAGENS = {
     logo: 'imagens/logo.png',
     hero: 'imagens/hero.jpg',
-    sobre: 'imagens/sobre.jpg',
-    prato1: 'imagens/prato-1.jpg',
-    prato2: 'imagens/prato-2.jpg',
-    prato3: 'imagens/prato-3.jpg',
+    sobre: 'imagens/fotoexterior.jpg',
+    prato1: 'imagens/fotosobre.jpg',
+    prato2: 'imagens/fotosobre2.jpg',
+    prato3: 'imagens/fotosobre3.jpg',
     mapa: ''
   };
 
   const HERO = {
     etiqueta: '',
-    titulo: 'Os burgers mais suculentos<br/>de todas as ruas.',
-    descricao: 'Descubra a magia dos burgers artesanais, preparados com ingredientes frescos e uma receita que combina tradição e inovação.',
+    titulo: 'Servindo a mesma tradição desde 1890.',
+    descricao: 'A pizzaria autêntica comandada pelo chef Giovanni, inova a história de sua família.',
     botaoReservar: 'Reservar mesa',
     botaoMenu: 'Ver Menu',
-    infoMoradaTitulo: 'Rua da Harmonia, 546',
-    infoMoradaTexto: 'Porto',
+    infoMoradaTitulo: 'Rua das Hortênsias, 24',
+    infoMoradaTexto: 'Coimbra',
     infoHorarioTitulo: '12h00 – 15h00 · 19h00 – 23h00',
     infoHorarioTexto: 'Seg a Dom',
     infoTelefoneTitulo: '932280272',
     infoTelefoneTexto: 'Reservas'
   };
 
-  const FITA = ['Drinks','Reservas Online','Desde 2010','Porto','Hamburgueria Urbana','Smash Burgers','Ambiente Moderno','Luzes Neon','Experiência Noturna'];
+  const FITA = ['Desde 1890','Reserve Online','Pizza Napolitana','Coimbra', 'Ambiente Moderno', 'Ingredientes Frescos', 'Receitas Tradicionais', 'Chef Giovanni', 'Melhor Pizzaria de Coimbra'];
 
   const SOBRE = {
     etiqueta: 'Sobre Nós',
-    titulo: 'Onde os amigos se juntam<br/>e as histórias começam.',
+    titulo: 'A tradição familiar.',
     paragrafos: [
-      'Criada em São Paulo em 2010, dois amigos inovaram a cena dos burgers e decidiram criar um espaço onde a tradição e a inovação se encontram.',
-      'A nossa equipa trabalha com paixão para garantir que cada visita seja uma memória inesquecível. Venha descobrir porque somos o burgerspot preferido de Porto.'
+      'O Sauce passou de geração em geração, tudo começou com o bisavô do chef Giovanni em 1890, que abriu sua pizzaria na Puglia ainda, imigrou para a região de Coimbra ainda jovem e quis empreender com sua amada esposa Ana',
+      'O projeto abraçado por Giovanni que decidiu em continuar a história de sua família, mas o transformou completamente no restaurante que é hoje.'
     ],
-    anosNumero: '16',
-    anosTexto: 'anos de<br>tradição',
-    diferenciais: ['Burger Dry Aged','Espaço moderno e intimista','Drinks autorais','Ingredientes frescos e de qualidade','Ambiente jovem e descontraído','Localização central no Porto'],
+    anosNumero: '136',
+    anosTexto: 'anos de<br>história',
+    diferenciais: ['Mesma receita desde 1890','Espaço moderno e intimista','Drinks autorais','Ingredientes frescos e de qualidade','Ambiente jovem e descontraído','Localização central em Coimbra'],
     botao: 'Reservar uma mesa'
   };
 
   const PRATOS_SECAO = {
-    etiqueta: 'Nossas Hamburguesas',
-    titulo: 'Os favoritos da casa',
-    descricao: 'Hamburguesas artesanais feitas com ingredientes frescos e um toque de criatividade. Cada mordida é uma explosão de sabor.',
-    botao: 'Ver cardápio completo'
+    titulo: 'Onde tudo começou',
+    descricao: 'Abrimos as portas do Sauce em 1890, trazendo a verdadeira pizza napolitana para Coimbra. Desde então, temos servido nossos clientes com paixão e dedicação, mantendo viva a tradição familiar e a autenticidade de cada prato. Venha experimentar o sabor que conquistou gerações e descubra por que somos a pizzaria preferida de Coimbra.',
+    botao: 'Ver nosso Menu'
   };
 
   const PRATOS_DESTAQUE = [
-    {tag:'Especialidade',nome:'La Doble Callejera',descricao:'Doble smash burger com queijo cheddar derretido em camadas, cebola caramelizada lentamente e molho especial da casa. Suculento, intenso e com aquele toque street que marca presença.',preco:'€ 14,50'},
-    {tag:'Mais pedido',nome:'La Cremosa Salvaje',descricao:'Explosão de sabor com carne grelhada, bacon crocante e um molho cremoso intenso que escorre por todo o burger. Pesado, indulgente e feito para quem quer sentir cada mordida.',preco:'€ 16,00'},
-    {tag:'Novidade',nome:'La Clásica Rebelde',descricao:'O clássico elevado ao nível De La Calle. Carne suculenta, cheddar, alface fresca, tomate e um blend de molhos que equilibra perfeitamente sabor e textura.',preco:'€ 13,50'}
+    {tag:'Especialidade',nome:'A famiglia',descricao:'A história do Sauce começa em 1890, quando o bisavô do chef Giovanni abriu sua pizzaria na Puglia, comandou a Pizzeria até o fim da vida, utilizando a mesma receita tanto para o molho, quanto para a massa. Era um negócio familiar, mas relatos dizem que já era uma das melhores pizzas da região, o que fez com que o bisavô de Giovanni decidisse imigrar para a região de Coimbra.'},
+    {tag:'Mais pedido',nome:'O Reconhecimento',descricao:'Depois de imigrarem á Coimbra, foi a vez de seu pai assumir o negócio, e foi ele quem realmente transformou a pizzaria, trazendo um ambiente mais moderno, mas sem perder a essência familiar e tradicional. O reconhecimento veio rápido, e o restaurante se tornou um dos mais amados da cidade, conhecido por sua pizza napolitana autêntica e ambiente acolhedor.'},
+    {tag:'Novidade',nome:'O Legado Continua',descricao:'Hoje, o chef Giovanni é o orgulhoso herdeiro dessa tradição, ganhador de uma estrela no Michelin, decidiu dedicar toda a sua inovação agora comandando a cozinha do Sauce que deixou de ser apenas uma pizzaria familiar de sucesso para uma Cucina Italiana. Colocando todo o seu toque que aprendeu em seus trabalhos passados em França com o renomado Chef Jacquin. Mas não se preocupe, além de suas inovações, ele mantém a receita original do molho e da massa, garantindo que cada pizza seja tão deliciosa quanto a do seu bisavô em 1890.'}
   ];
 
   const MENU = {
     etiqueta: 'Cardápio',
     titulo: 'O nosso menu',
     entradas: [
-      ['Dadinho de Tapioca','Dadinho de tapioca crocante, perfeito para começar o jantar.','€ 6,50'],
-      ['Fritas da Casa','Batatas reais servidas com pastrami, picles e maionese da casa.','€ 9,00'],
-      ['Spicy Wings','Asas de frango picantes com molho especial.','€ 10,50'],
-      ['Legumes Asados','Legumes assados com azeite de oliva e ervas aromáticas.','€ 7,50'],
-      ['Ovos Rotos','Ovos rotos cremosos com batata e toque da casa.','€ 8,50'],
-      ['Tábua de Queijos e Enchidos','Seleção de queijos e enchidos artesanais, pão rústico e compotas.','€ 11,00']
+      ['Fiore di zuca','€ 10,50'],
+      ['Arancini','Os famosos bolas de risoto recheadas com queijo e especiarias.','€ 9,00'],
+      ['Cesto di Pan','Servidos com antepastos.','€ 7,50'],
+      ['Burrata di Bufala','Burrata fresca de bufala, servida com tomate e manjericão.','€ 14,00'],
+      ['Bruschetta Classica','Pão crocante com tomate, alho, manjericão e azeite.','€ 6,00'],
+      ['Dadinho de Tapioca','Dadinho de tapioca crocante, perfeito para começar o jantar.','€ 6,50']
     ],
     principais: [
       ['La Doble Callejera','Doble smash burger com queijo cheddar derretido em camadas, cebola caramelizada lentamente e molho especial da casa.','€ 14,50'],
       ['La Cremosa Salvaje','Carne grelhada, bacon crocante e molho cremoso intenso. Pesado, indulgente e feito para sentir cada mordida.','€ 16,00'],
-      ['La Clásica Rebelde','Carne suculenta, cheddar, alface fresca, tomate e blend de molhos com equilíbrio perfeito.','€ 13,50'],
+      ['La Clásica Rebelde','Carne suculenta, cheddar, alface fresca, tomate e blend de molhos com equilíbrio perfeito.','€ 13,50']
       ['La Calle Veggie','Hambúrguer vegetariano com grão-de-bico, quinoa e especiarias, servido com alface, tomate e molho especial.','€ 12,00'],
       ['El Dorado','Milanesa de frango crocante, queijo derretido, alface fresca, tomate e molho especial da casa.','€ 13,50'],
       ['Choripan','Linguiça argentina grelhada em pão crocante com chimichurri e maionese de alho.','€ 11,00']
